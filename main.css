@@ -1,10 +1,17 @@
 /* */
-.image_header {
-	
-
+.header {
+background-image: url(images/header.jpg);
+height: 523px;
+width: 1300px;
 }
 
-.image_header img {
-	width: 900px;
-	margin:0px 50px;
+.header_logo_area {
+	float: left;
+
+}
+.header_search_area {
+	float: right;
+}
+.header_text {
+	float:right;
 }
