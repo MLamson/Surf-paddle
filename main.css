@@ -3,15 +3,40 @@
 background-image: url(images/header.jpg);
 height: 523px;
 width: 1300px;
+
 }
 
-.header_logo_area {
+.logo_blog {
+	
+
+}
+
+.header_logo {
 	float: left;
+	margin-left: 50px;
+}
+.header_logo img{
+	width: 50px;
+}
+
+.blog {
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.about {
+	float:right;
+	margin-right: 5px;
+}
+
+.header_search {
+	float: right;
+	margin-right: 50px;
 
 }
-.header_search_area {
-	float: right;
-}
+
 .header_text {
-	float:right;
+	text-align: center;
+	color: white;
 }
