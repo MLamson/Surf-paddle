@@ -1,4 +1,7 @@
-/* */
+.container {
+	margin:0;
+	padding:0;
+}
 .header {
 background-image: url(images/header.jpg);
 height: 523px;
@@ -54,3 +57,60 @@ display:inline-block;
 	height: 1000px;
 	margin:auto;
 }
+.box_left {
+	float:left;
+	width: 900px;
+}
+.box_right {
+	float: right;
+	width: 400px;
+}
+.footer {
+	display: block;
+	float:left;
+}
+
+.footer h1{
+	color:blue;
+	text-align: center;
+}
+
+/*.footer_pic1 {
+	width:325;
+	height: 325;
+	position:relative;
+}
+
+.image_background {
+	background-color: hsla(0,0,0, 1);
+	width:325;
+	height: 325;
+	position: absolute;
+	top:0;
+	left:0;
+}*/
+/*.box1 {
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.boxinner {
+  background-color: hsla(154,42%,57%, .7);
+  width:300px;
+  height:300px;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.boxinner:hover {
+  background-color: hsla(154,42%,57%, 0);
+}
+*/
+
+
+
+
+
+
