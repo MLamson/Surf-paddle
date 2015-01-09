@@ -62,70 +62,11 @@
 .text_lower {
 
 }
-.header_logo {
-	float: left;
-	padding-left: 150px;
-	padding-top: 15px;
+.container {
+	margin: 0px 0px 0px 75px;
+	font-family: 'Open Sans', sans-serif;
 }
-.header_logo img{
-	width: 45px;
-}
-
-.blog {
-	float: left;
-	padding-top: 30px;
-	padding-left: 5px;
-	font-size: 30;
-}
-
-.about {
-	float:right;
-	margin-right: 5px;
-}
-
-.header_search {
-	float: right;
-	margin-right: 50px;
-
-}
-
-.header_text {
-	padding-top: 150px;
-	text-align: center;
-	color: white;
-}
-
-.header_text h1 {
-	font-size: 90px;
-}
-.body {
-	width:1300px;
-	height: 1000px;
-	margin:auto;
-}
-.box_left {
-	float:left;
-	width: 900px;
-}
-.box_right {
-	float: right;
-	width: 400px;
-}
-.footer {
-	display: block;
-	float:left;
-}
-
-.footer h1{
-	color:blue;
-	text-align: center;
-}
-
-/*.footer_pic1 {
-	width:325;
-	height: 325;
-	position:relative;
-}
+/*
 
 .image_background {
 	background-color: hsla(0,0,0, 1);
