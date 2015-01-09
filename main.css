@@ -6,13 +6,19 @@
 	background-image: url(images/header.jpg);
 	height: 523px;
 	width: 1300px;
-	margin: 0px 0px 0px 50px;
+	margin: 0px 0px 0px 75px;
 	padding:0;
+	font-family: 'Oswald', sans-serif;
 }
 
 .left_nav {
-	padding-left: 10px;
+	padding-left: 150px;
 	padding-top: 10px;
+	width: 300px;
+}
+
+.left_nav img {
+	width: 45px
 }
 
 .inner_left {
@@ -22,14 +28,40 @@
 .inner_right {
 	padding-left:10px;
 	float: left;
-	padding-top: 15px;
+	padding-top: 12px;
 }
 .right_nav {
 	float:right;
-	padding-right: 10px;
+	padding-right: 175px;
 	padding-top: 10px;
 }
+.about {
+	float:right;
+	padding-right:20px;
+}
+.search {
+	float: right;
+	padding-right: 10px;
+}
+.search_img {
+	float: right;
+}
+.searh_img img {
+	width: 30px;
+}
+.text {
+	clear:both;
+	padding-top: 125px;
+	text-align: center;
+}
+.text_upper {
+	font-size: 100px;
+	color:white;
+	line-height: 120px;
+}
+.text_lower {
 
+}
 .header_logo {
 	float: left;
 	padding-left: 150px;
