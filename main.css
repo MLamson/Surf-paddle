@@ -149,9 +149,22 @@
 }
 
 .image1 {
+	clear:both;
 	float:left;
 	position:relative;
 }
+.boxinner {
+	background-color: hsla(206,52%,60%, .7);
+  	width:325px;
+  	height:325px;
+  	position: absolute;
+  	top:0;
+  	
+}
+.boxinner:hover {
+  background-color: hsla(154,42%,57%, 0);
+}
+
 h2 {
 	float:left;
 	position: absolute;
@@ -162,18 +175,21 @@ h2 {
 }
 .image2 {
 	float:left;
+	position: relative;
 }
 .image2 h2 {
 	color:white;
 }
 .image3 {
 	float:left;
+	position: relative;
 }
 .image3 h2 {
 	margin-top: -83px;
 }
 .image4 {
 	float:left;
+	position: relative;
 }
 .bottom_bar {
 	background-color: #083452;
@@ -181,6 +197,8 @@ h2 {
 	width: 1300px;
 	line-height: 100px;
 }
+
+
 .bottom_nav {
 	float: right;
 	margin:0;
