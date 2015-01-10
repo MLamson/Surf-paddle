@@ -106,8 +106,11 @@
 	text-align: center;
 }
 .footer {
-
-
+	width: 1300px;
+}
+.popular_posts {
+	clear:both;
+	text-align: center;
 }
 .footer_pics {
 	clear:both;
