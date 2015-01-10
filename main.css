@@ -142,7 +142,9 @@
 	text-align: center;
 }
 .footer_pics {
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 33px;
+	font-family: 'Oswald', sans-serif;
 
 }
 
@@ -156,9 +158,13 @@ h2 {
 	color:black;
 	margin-top: -50px;
 	margin-bottom: 500px;
+	margin-left:20px;
 }
 .image2 {
 	float:left;
+}
+.image2 h2 {
+	color:white;
 }
 .image3 {
 	float:left;
@@ -178,9 +184,17 @@ h2 {
 .bottom_nav {
 	float: right;
 	margin:0;
+	padding-right: 150px;
 }
 .bottom_nav li {
 	display: inline-block;
+	padding-right:10px;
+	padding-left:10px;
+	border-right: 1px solid;
+	line-height: 15px;
+}
+.bottom_nav li:last-child {
+	border:none;
 }
 /*
 
