@@ -142,18 +142,29 @@
 	text-align: center;
 }
 .footer_pics {
-	
-	font-size: 0;
+	font-size: 25px;
+
 }
 
 .image1 {
 	float:left;
+	position:relative;
+}
+h2 {
+	float:left;
+	position: absolute;
+	color:black;
+	margin-top: -50px;
+	margin-bottom: 500px;
 }
 .image2 {
 	float:left;
 }
 .image3 {
 	float:left;
+}
+.image3 h2 {
+	margin-top: -83px;
 }
 .image4 {
 	float:left;
