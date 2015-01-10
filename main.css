@@ -105,8 +105,9 @@
 	display:inline-block;
 	text-align: center;
 }
-.footer {
-	width: 1300px;
+.footer_pics img{
+	width: 325px;
+	height: 325px;
 }
 .popular_posts {
 	clear:both;
@@ -116,6 +117,12 @@
 	clear:both;
 	float:left;
 	display: inline-block;
+	font-size: 0;
+}
+.bottom_bar {
+	background-color: #083452;
+	clear: both;
+	color: white;
 }
 /*
 
