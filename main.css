@@ -74,10 +74,12 @@
 	float: left;
 	padding-left: 135px;
 	padding-bottom: 10px;
-
 }
 .main img{
 	width: 25px;
+}
+.main span:nth-child(4) {
+	text-decoration: underline;
 }
 .headline {
 	font-family: 'Oswald', sans-serif;
@@ -91,7 +93,6 @@
 .article_options {
 	color:white;
 }
-.article_options img{
 	float: left;
 	background-color: #A3B3BF;
 	width: 24px;
@@ -141,10 +142,21 @@
 	text-align: center;
 }
 .footer_pics {
-	clear:both;
-	float:left;
-	display: inline-block;
+	
 	font-size: 0;
+}
+
+.image1 {
+	float:left;
+}
+.image2 {
+	float:left;
+}
+.image3 {
+	float:left;
+}
+.image4 {
+	float:left;
 }
 .bottom_bar {
 	background-color: #083452;
