@@ -73,7 +73,7 @@
 	width: 700px;
 	float: left;
 	padding-left: 135px;
-	padding-bottom: 10px;
+	padding-bottom: 75px;
 }
 .main img{
 	width: 25px;
@@ -114,22 +114,78 @@
 	/*background-color: #A3B3BF;*/
 	padding-top: 20px;
 }
-.article_options span {
-	font-size:12px;
-	background-color: lightgrey;
-}
 .article_options img{
-	background-color: #A3B3BF;
+	width: 20px;
+	height: 20px;
 }
+
 .read_comments {
 	float: left;
 }
+.read_image_background {
+	float: left;
+	background-color: HSLA(205, 8%, 40%, 1);
+	width: 30px;
+	height: 30px;
+}
+.read_later_background {
+	clear: both;
+	float: left;
+	background-color: HSLA(205, 8%, 40%, 1);
+	width: 30px;
+	height: 30px;
+}
+.share_this_background {
+	clear: both;
+	float: left;
+	background-color: HSLA(205, 8%, 40%, 1);
+	width: 30px;
+	height: 30px;
+	}
+.read_text {
+	float: left;
+	font-size:14px;
+	background-color: lightgrey;
+	line-height: 30px;
+	width: 125px;
+	text-align: center;
+}
 .read_later {
 	float: left;
+	padding-left: 20px;
+}
+.read_later_text {
+	float: left;
+	font-size: 14px;
+	background-color: lightgrey;
+	line-height: 30px;
+	width: 125px;
+	text-align: center;
 }
 .share_this{
 	float: left;
+	padding-left: 20px;
 }
+.share_this_text {
+	text-decoration: none;
+	color:white;
+	float: left;
+	font-size: 14px;
+	background-color: lightgrey;
+	line-height: 30px;
+	width: 125px;
+	text-align: center;
+}
+.share_this_text:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+.read_later_text:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+.read_text:hover {
+	background-color: HSLA(206, 84%, 38%, 1);
+}
+
 .side {
 	padding-top: 75px;
 	padding-left: 115px;
@@ -161,18 +217,28 @@
 .side div {
 	text-align: center;
 }
+.add_link {
+	float: right;
+	color: lightgrey;
+}
+h3 {
+	color:lightblue;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 50px;
+}
 .footer_pics img{
 	width: 325px;
 	height: 325px;
 }
 .popular_posts {
+	border-top: 1px solid lightgrey;
 	clear:both;
 	text-align: center;
 	font-size: 70px;
 	font-family: 'Oswald', sans-serif;
 	color:HSLA(204, 82%, 18%, 1);
 	padding-bottom: 25px;
-	padding-top: 75px;
+	padding-top: 30px;
 }
 .footer_pics {
 	font-size: 20px;
