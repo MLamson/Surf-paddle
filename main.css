@@ -78,7 +78,7 @@
 .main img{
 	width: 25px;
 }
-.main span:nth-child(4) {
+.main span:nth-child(5) {
 	text-decoration: underline;
 }
 .headline {
@@ -90,6 +90,10 @@
 .avatar_name {
 	text-decoration: none;
 	font-size: 80%;
+}
+.on_confused {
+	font-size: 80%;
+	color: lightgrey;
 }
 .date_time {
 	color: lightgrey;
@@ -327,10 +331,14 @@ h2 {
 	margin-top: -10px;
 }
 .bottom_bar span {
-	padding-left: 5px;
+	padding-left: 10px;
 }
 .bottom_bar img {
+	clear:both;
+	float: left;
+	padding-top: 30px;
 	padding-left:150px;
+
 }
 .bottom_nav {
 	float: right;
