@@ -1,3 +1,4 @@
-Read me please
+##Recreate a web page 
 
-#header
+For homework at TIY to learn about HTML and CSS for layout reasons.
+
